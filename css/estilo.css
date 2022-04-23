@@ -1,0 +1,67 @@
+/* Comentarios en CSS*/
+
+*{/*con * usamos el selector universal de todos los elementos del dom  */
+    margin: 0px;
+    padding: 0px;
+}
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{ /*los elementos de html se seleccionan asi x su nombre */
+display: block;
+}
+body {
+    text-align: center;
+    }
+#contenido {
+        width: 960px;
+		margin: 15px auto;
+        text-align: left;
+        background: burlywood;
+        padding: 10px;
+        border-radius: 30px;
+        }
+#cabecera {
+           
+           
+            padding: 10px;
+            }
+#menu {
+    
+     padding: 5px 15px;
+     border-radius: 20px;
+     }
+.dark{   /*ejemplo de enganchar una clase* con # por id y con . por clase*/
+    background: #f05a04;
+}
+ #menu li {
+     display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+     }
+
+     #cuerpo {
+        float: left;
+        width: 660px;
+        margin: 20px;
+        }
+        #columna {
+        text-align: center;
+        width: 200px;
+        margin: 20px 0px;
+        padding: 20px;
+        background: #f05a04;
+       border-radius: 40px;
+        float: left;
+        }
+        #pie {
+            clear: both;
+        
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #df5a0d;
+            }
+h1{
+    color:darkred;
+    font-family: arial;
+    '
+}
