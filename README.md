@@ -1,2 +1,0 @@
-# ejemploWeb
-Proyecto de estudio
