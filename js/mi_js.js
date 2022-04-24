@@ -1,5 +1,5 @@
- 
- 
- function sms(){
-    alert('hello word'); 
-}
+ // Comentario por ernesto
+
+ function sms() {
+     alert('hello word');
+ }
